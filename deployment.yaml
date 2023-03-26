@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: React-app
-        image: bopgeek/gitops01   
+        image: bopgeek/gitops01:5b7496d8bbdf635001c693c0a7952909584a3377
         resources:
           limits:
             memory: "128Mi"
