@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: React-app
+spec:
+  selector:
+    matchLabels:
+      app: React-app
+  template:
+    metadata:
+      labels:
+        app: React-app
+    spec:
+      containers:
+      - name: React-app
+        image: imrishav/gitops01
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
