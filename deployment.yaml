@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: React-app
-        image: bopgeek/gitops01:f04288594db8cf639c29a1ae6b8a14cca24165b2
+        image: bopgeek/gitops01:fd0b61b0e78843c05c6fc10b0b8937721e68f831
         ports:
         - containerPort: 3000
